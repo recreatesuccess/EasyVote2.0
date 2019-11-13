@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": "8"
+  },
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0",
+    "geo-from-ip": "^1.2.0",
+    "mongoose": "^5.4.19",
+    "nexmo": "^2.4.1",
+    "nodemailer": "^5.1.1"
+  },
+  "private": true
+}
